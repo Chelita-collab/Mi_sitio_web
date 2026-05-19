@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ejercicio 18</title>
+</head>
+<body>
+<center>
+<form action="proc18.php" method="post">
+<h1>Ejercicio 18</h1>
+<h2>Factura</h2><br>
+<label>Nombre del Cliente:</label><br>
+<input type="text" name="cliente" required><br><br>
+<label>Producto:</label><br>
+<input type="text" name="producto" required><br><br>
+<label>Cantidad:</label><br>
+<input type="number" name="cantidad" min="1" required><br><br>
+<label>Precio Unitario ($):</label><br>
+<input type="number" name="precio" step="any" min="0.01" required><br><br>
+<input type="submit" value="Generar Factura">
+</form>
+</center>
+</body>
+</html>
