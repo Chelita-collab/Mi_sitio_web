@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ejercicio 16</title>
+</head>
+<body>
+<center>
+<form action="proc16.php" method="post">
+<h1>Ejercicio 16</h1><br>
+<h2>Salario de Empleado</h2><br>
+<label>Nombre del empleado:</label><br>
+<input type="text" name="nombre" required><br><br>
+<label>Horas trabajadas:</label><br>
+<input type="number" name="horas" min="1" required><br><br>
+<label>Pago por hora ($):</label><br>
+<input type="number" name="pago" step="any" min="0.1" required><br><br>
+<input type="submit" value="Calcular Salario">
+</form>
+</center>
+</body>
+</html>
