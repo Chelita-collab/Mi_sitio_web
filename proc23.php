@@ -1,4 +1,5 @@
 <?php
+echo "<link rel='stylesheet' href='hoja_de_estilo.css'>";
 $precio = $_POST['precio'];
 $total_iva = $precio * 1.13;
 echo "<center>";
