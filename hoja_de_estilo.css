@@ -1,0 +1,89 @@
+body {
+background-color: #E8B4B8;
+font-family: 'Courier New', Courier, monospace;
+margin: 0;
+padding: 20px;
+}
+center {
+display: block;
+max-width: 500px;
+margin: 0 auto;
+background-color: #FFFDD0;
+padding: 60px;
+border-radius: 20px;
+box-shadow: 0 4px 15px rgb(255, 0, 0);
+}
+h1 {
+color: rgb(27, 2, 82);
+}
+h2 {
+color: rgb(3, 10, 143);
+}
+label {
+font-size: 14px;
+color: #50C878;
+margin-bottom: 8px;
+font-weight: bold;
+}
+input[type="email"], input[type="text"], input[type="number"] {
+border-color: #D4AF37;
+background-color: #D4AF37;
+box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+padding: 10px 14px;
+font-size: 15px;
+border: 2px solid #f6e099;
+color: #FFFDD0;
+outline: none;
+margin-bottom: 15px;
+width: 100%;
+max-width: 300px;
+border-radius: 6px;
+transition: all 0.3s ease;
+box-sizing: border-box;
+}
+input[type="submit"], button {
+width: 100%;
+max-width: 300px;
+border-radius: 6px;
+transition: all 0.3s ease;
+box-sizing: border-box;
+padding: 12px;
+background-color: #7B2CBF;
+color: rgb(6, 2, 70);
+border: none;
+font-size: 14px;
+font-weight: bold;
+cursor: pointer;
+margin-bottom: 8px;
+}
+input[type="submit"]:hover, button:hover {
+background-color: #84cef5;
+color: rgb(27, 2, 82);
+}
+input[type="submit"]:active, button:active {
+transform: scale(0.98);
+}
+a {
+display: block;
+width: 100%;
+max-width: 320px;
+background-color: rgb(27, 2, 82);
+color: #00FFFF;
+padding: 12px 0;
+font-size: 15px;
+font-weight: bold;
+text-decoration: none;
+border-radius: 6px;
+margin-bottom: 10px;
+transition: all 0.2s ease;
+box-sizing: border-box;
+margin-left: auto;
+margin-right: auto;
+}
+a:hover {
+background-color: #84bef5;
+color: rgb(27, 2, 82);
+}
+a:active {
+transform: scale(0.98);
+}
