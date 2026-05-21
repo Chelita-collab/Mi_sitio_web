@@ -1,4 +1,5 @@
 <?php
+echo "<link rel='stylesheet' href='hoja_de_estilo.css'>";
 echo "<center>";
 $nombre = $_POST['nombre'];
 echo "<h1>¡Bienvenido/a, " . $nombre . "!</h1><br><br>";
