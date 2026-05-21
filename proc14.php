@@ -1,4 +1,5 @@
 <?php
+echo "<link rel='stylesheet' href='hoja_de_estilo.css'>";
 $metros = $_POST['metros'];
 $centimetros = $metros * 100;
 echo "<center>";
