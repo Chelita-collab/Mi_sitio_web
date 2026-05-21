@@ -1,4 +1,5 @@
 <?php
+echo "<link rel='stylesheet' href='hoja_de_estilo.css'>";
 $celsius = $_POST['celsius'];
 $fahrenheit = ($celsius * 1.8) + 32;
 echo "<center>";
