@@ -1,4 +1,5 @@
 <?php
+echo "<link rel='stylesheet' href='hoja_de_estilo.css'>";
 $dolares = $_POST['dolares'];
 $tasa_cambio = 0.92;
 $euros = $dolares * $tasa_cambio;
