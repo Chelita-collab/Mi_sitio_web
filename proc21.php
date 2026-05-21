@@ -1,4 +1,5 @@
 <?php
+echo "<link rel='stylesheet' href='hoja_de_estilo.css'>";
 $palabra = $_POST['palabra'];
 $cantidad = strlen($palabra);
 echo "<center>";
