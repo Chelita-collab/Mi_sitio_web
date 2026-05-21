@@ -1,4 +1,5 @@
 <?php
+echo "<link rel='stylesheet' href='hoja_de_estilo.css'>";
 $n1 = $_POST['num1'];
 $n2 = $_POST['num2'];
 echo "<center>";
