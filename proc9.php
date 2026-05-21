@@ -1,4 +1,5 @@
 <?php
+echo "<link rel='stylesheet' href='hoja_de_estilo.css'>";
 $num = $_POST['num'];
 echo "<center>";
 if ($num % 2 == 0) {
