@@ -1,4 +1,5 @@
 <?php
+echo "<link rel='stylesheet' href='hoja_de_estilo.css'>";
 $limite = $_POST['limite'];
 $suma = 0;
 for ($i = 1; $i <= $limite; $i++) {
