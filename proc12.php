@@ -1,4 +1,5 @@
 <?php
+echo "<link rel='stylesheet' href='hoja_de_estilo.css'>";
 $base = $_POST['base'];
 $altura = $_POST['altura'];
 $area = $base * $altura;
