@@ -1,4 +1,5 @@
 <?php
+echo "<link rel='stylesheet' href='hoja_de_estilo.css'>";
 $monto = $_POST['monto'];
 $descuento = 0;
 if ($monto > 50) {
