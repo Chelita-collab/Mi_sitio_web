@@ -1,4 +1,5 @@
 <?php
+echo "<link rel='stylesheet' href='hoja_de_estilo.css'>";
 $edad_actual = $_POST['edad'];
 $edad_futura = $edad_actual + 10;
 echo "<center>";
