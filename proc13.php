@@ -1,4 +1,5 @@
 <?php
+echo "<link rel='stylesheet' href='hoja_de_estilo.css'>";
 $lado = $_POST['lado'];
 $perimetro = $lado * 4;
 echo "<center>";
