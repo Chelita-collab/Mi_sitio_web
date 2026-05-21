@@ -1,4 +1,5 @@
 <?php
+echo "<link rel='stylesheet' href='hoja_de_estilo.css'>";
 $cliente = $_POST['cliente'];
 $producto = $_POST['producto'];
 $cantidad = $_POST['cantidad'];
