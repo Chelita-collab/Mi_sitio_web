@@ -1,4 +1,5 @@
 <?php
+echo "<link rel='stylesheet' href='hoja_de_estilo.css'>";
 $nombre = $_POST['nombre'];
 $horas = $_POST['horas'];
 $pago = $_POST['pago'];
