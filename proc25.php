@@ -1,4 +1,5 @@
 <?php
+echo "<link rel='stylesheet' href='hoja_de_estilo.css'>";
 $nombre = $_POST['nombre'];
 $correo = $_POST['correo'];
 $ciudad = $_POST['ciudad'];
